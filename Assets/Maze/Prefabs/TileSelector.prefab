@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7398999635244020436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7398999635244020438}
+  - component: {fileID: 7398999635244020437}
+  m_Layer: 0
+  m_Name: TileSelector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7398999635244020438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7398999635244020436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7398999635244020437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7398999635244020436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff9298aa3355ea47afd1af471f5f848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileId: 0
+  highlightPrefab: {fileID: 4233384494349019991, guid: 2109d2bf266701e4fa01145afccb889e, type: 3}
+  highlightObj: {fileID: 0}
+  tileInformations:
+  - tileName: Floor
+    tileData: {fileID: 11400000, guid: 1172be8a943efe043adb1d6319b4500b, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: Wall
+    tileData: {fileID: 11400000, guid: 482249f27a5cf194ab11fafdd83d3dfc, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: Start
+    tileData: {fileID: 11400000, guid: f65fd28dd21381b499c82c6f8e66553f, type: 2}
+    IsSingle: 1
+    defaultTileName: Floor
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: Goal
+    tileData: {fileID: 11400000, guid: d594d27c90c508d439e73f0e9c1610d7, type: 2}
+    IsSingle: 1
+    defaultTileName: Floor
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: MoveForward
+    tileData: {fileID: 11400000, guid: ed494e85b2c62b6419705454f467d926, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: MoveBackward
+    tileData: {fileID: 11400000, guid: ed494e85b2c62b6419705454f467d926, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 180}
+  - tileName: RotateRight
+    tileData: {fileID: 11400000, guid: b0ddd0e23f269484d9f41fb9ccd01c1e, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: RotateLeft
+    tileData: {fileID: 11400000, guid: b0ddd0e23f269484d9f41fb9ccd01c1e, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 180, z: 0}
+  - tileName: IfFront
+    tileData: {fileID: 11400000, guid: ddd8ff290bbd63447adcff6ee645cd78, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: IfRight
+    tileData: {fileID: 11400000, guid: 4bb74c03d68e1de4cb8e78aa8cf27645, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: IfBack
+    tileData: {fileID: 11400000, guid: 10f0bf72545f8774c9e059f4f2b73913, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: IfLeft
+    tileData: {fileID: 11400000, guid: 4cbd309834287d741b282453e45f82e4, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: Wait
+    tileData: {fileID: 11400000, guid: cf1805754b0c8224db57411a5e4881be, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: Base
+    tileData: {fileID: 11400000, guid: cf10b20b8e345ff498a2479b68295d38, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: BaseStart
+    tileData: {fileID: 11400000, guid: 8f2e9a257e0e89447a980004cff4e89f, type: 2}
+    IsSingle: 1
+    defaultTileName: Base
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: BaseActive
+    tileData: {fileID: 11400000, guid: 87c6ec31665f55240b62b0d7bbeb27ac, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: RedArrowUp
+    tileData: {fileID: 11400000, guid: 7df929717c7ed384ab41c37aa2fc36b4, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: RedArrowRight
+    tileData: {fileID: 11400000, guid: 7df929717c7ed384ab41c37aa2fc36b4, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: -90}
+  - tileName: RedArrowDown
+    tileData: {fileID: 11400000, guid: 7df929717c7ed384ab41c37aa2fc36b4, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: -180}
+  - tileName: RedArrowLeft
+    tileData: {fileID: 11400000, guid: 7df929717c7ed384ab41c37aa2fc36b4, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: -270}
+  - tileName: BlueArrowUp
+    tileData: {fileID: 11400000, guid: 49f3c11f5c0ac5a458324ac2cf87e2c3, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}
+  - tileName: BlueArrowRight
+    tileData: {fileID: 11400000, guid: 49f3c11f5c0ac5a458324ac2cf87e2c3, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: -90}
+  - tileName: BlueArrowDown
+    tileData: {fileID: 11400000, guid: 49f3c11f5c0ac5a458324ac2cf87e2c3, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: -180}
+  - tileName: BlueArrowLeft
+    tileData: {fileID: 11400000, guid: 49f3c11f5c0ac5a458324ac2cf87e2c3, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: -270}
+  - tileName: Empty
+    tileData: {fileID: 11400000, guid: f0b57ac377073be47861424dfd49f4d3, type: 2}
+    IsSingle: 0
+    defaultTileName: 
+    rot: {x: 0, y: 0, z: 0}

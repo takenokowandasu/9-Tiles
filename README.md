@@ -25,7 +25,7 @@
 ## プロジェクトをUnityで開くときの手順
 - Assets/9Tiles シーンを開く
 - 標準解像度は1280x720ピクセル
-- 2Dビュー
+- 2Dビューに設定
 
 # スクリプト概要
 本プロジェクト用に開発したスクリプトは以下の通りです。
@@ -62,7 +62,15 @@
 # 組み込みアセットのライセンス
 - 本作品ではフォントとして「Noto Sans JP」を使用しています。
   - https://fonts.google.com/noto/specimen/Noto+Sans
-  - Licensed under the Open Font License.(https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
+  - Licensed under the Open Font License.(https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+- いらすとや（画像素材）
+  - https://www.irasutoya.com/2017/03/blog-post_733.html
+- 塗れるイラスト素材-ぬれよん（画像素材）
+  - https://nureyon.com/
+- 魔王魂（BGM）
+  - https://maou.audio/bgm_cyber44/
+- 効果音ラボ（効果音）
+  - https://soundeffect-lab.info/
 
 # 更新履歴
 - Ver1.0 最初の公開

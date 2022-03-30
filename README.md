@@ -60,9 +60,9 @@
 
 
 # 組み込みアセットのライセンス
-本作品ではフォントとして「Noto Sans JP」を使用しています。
-https://fonts.google.com/noto/specimen/Noto+Sans
-Licensed under the Open Font License.(https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
+- 本作品ではフォントとして「Noto Sans JP」を使用しています。
+- https://fonts.google.com/noto/specimen/Noto+Sans
+- Licensed under the Open Font License.(https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
 
 # 更新履歴
 - Ver1.0 最初の公開
